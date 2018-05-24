@@ -945,6 +945,10 @@
 				width: auto;
 			}
 
+		.image.fit:hover {
+			transform: scale(1.05);
+		}
+
 /* Button */
 
 	input[type="button"],
