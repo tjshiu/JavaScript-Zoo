@@ -1,7 +1,7 @@
 @import url("../../assets/css/font-awesome.min.css");
 
 html {
-  background: url("background-sf.jpg");
+  background: url("background-sf.jpg") center top;
   background-size:cover;
   font-family:'helvetica neue';
   text-align: center;
@@ -11,17 +11,14 @@ html {
 body {
   margin: 0;
   font-size: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   flex:1;
-  min-height: 100vh;
+  min-height: calc(100vh - 50px);
   align-items: center;
 }
 
 .icon {
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 25px;
 }
 
@@ -36,9 +33,9 @@ body {
 
 .gohome {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
-  color: white;
+  color: black;
 }
 
 .clock {
@@ -54,6 +51,7 @@ body {
     inset 0 0 0 3px #EFEFEF,
     inset 0 0 10px black,
     0 0 10px rgba(0,0,0,0.2);
+  top: calc(25vh - 60px);
 }
 
 .clock-face {
