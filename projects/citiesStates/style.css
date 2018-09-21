@@ -1,3 +1,5 @@
+@import url("../../assets/css/font-awesome.min.css");
+
 html {
     box-sizing: border-box;
     background:#ffc600;
@@ -5,6 +7,29 @@ html {
     font-size: 20px;
     font-weight: 200;
   }
+
+  .icon {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+  }
+
+    .icon:before {
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+      font-family: FontAwesome;
+      font-style: normal;
+      font-weight: normal;
+      text-transform: none !important;
+    }
+
+  .gohome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+  }
+
   *, *:before, *:after {
     box-sizing: inherit;
   }
@@ -69,3 +94,4 @@ html {
   .hl {
     background:#ffc600;
   }
+
