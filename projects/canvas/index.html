@@ -47,11 +47,11 @@
         if (hue >= 360) hue = 0;
         if (ctx.lineWidth >= 150 || ctx.lineWidth <= 1) direction = !direction;
 
-        // if (direction) {
-        //     ctx.lineWidth++;
-        // } else {
-        //     ctx.lineWidth--;
-        // }
+        if (direction) {
+            ctx.lineWidth++;
+        } else {
+            ctx.lineWidth--;
+        }
     }
 
     canvas.addEventListener("mousedown", (e) => {
